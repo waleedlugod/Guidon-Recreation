@@ -7,6 +7,11 @@ h1 {
     font-family: "Freight Text", serif;
 }
 
+p {
+    color: black;
+}
+
+
 button {
     font-family: inherit;
     color: inherit;
