@@ -18,7 +18,7 @@ main h1 {
 }
 
 .block {
-    padding: 15px;
+    padding: 20px;
 
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ main h1 {
 
 .block h2 {
     font-size: 30px;
-    margin-bottom: 5px;
+    margin: 5px 0px 5px 0px;
 }
 
 .line {
@@ -56,4 +56,10 @@ main h1 {
 
 .block button:hover {
     cursor: pointer;
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+    .staffs {
+        grid-template-columns: 1fr 1fr;
+    }
 }
