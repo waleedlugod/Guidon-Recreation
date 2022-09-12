@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: "Atlas Grotesk", sans-serif;
+}
+
+h1 {
+    font-family: "Freight Text", serif;
+}
+
+button {
+    font-family: inherit;
+    color: inherit;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: gray;
+    font-size: 14px;
+}

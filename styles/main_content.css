@@ -1,0 +1,58 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+}
+
+.staffs {
+    margin-inline: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.block {
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1), -1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.block h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.line {
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.block-content {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block button {
+    align-self: end;
+    background-color: #f5f5f4;
+    border: 0;
+    padding: 15px;
+}
+
+.block button:hover {
+    cursor: pointer;
+}
