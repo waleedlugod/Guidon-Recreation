@@ -15,7 +15,7 @@ main p {
 }
 
 .staffs {
-    margin-inline: 130px;
+    margin-inline: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -62,7 +62,7 @@ main p {
     cursor: pointer;
 }
 
-@media (min-width: 600px) and (max-width: 899px) {
+@media (min-width: 600px) and (max-width: 900px) {
     .staffs {
         grid-template-columns: 1fr 1fr;
     }
