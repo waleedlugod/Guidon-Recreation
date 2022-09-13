@@ -12,10 +12,11 @@ main h1 {
 
 main p {
     color: black;
+    font-size: 14px;
 }
 
 .staffs {
-    margin-inline: 100px;
+    margin-inline: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -58,6 +59,11 @@ main p {
     font-weight: bold;
 }
 
+.block input {
+    display: none;
+    align-self: flex-end;
+}
+
 .block button:hover {
     cursor: pointer;
 }
@@ -65,5 +71,33 @@ main p {
 @media (min-width: 600px) and (max-width: 900px) {
     .staffs {
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 599px) {
+    .staffs {
+        grid-template-columns: 1fr;
+        margin-inline: 30px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .block {
+        border-radius: 25px;
+    }
+    
+    .block-content {
+        flex-direction: row;
+        font-size: 14px;
+    }
+
+    .block button {
+        display: none;
+    }
+
+    .block input {
+        display: block;
     }
 }
